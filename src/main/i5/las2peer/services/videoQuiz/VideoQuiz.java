@@ -107,7 +107,7 @@ public class VideoQuiz extends RESTService {
   })
   @ApiOperation(value = "GetQuiz", notes = " ")
   public Response GetQuiz(@PathParam("id") String id) {
-
+ 
     // 
     boolean _condition = true;
     if(_condition) {
